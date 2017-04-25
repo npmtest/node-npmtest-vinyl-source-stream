@@ -1,6 +1,6 @@
 # npmtest-vinyl-source-stream
 
-#### test coverage for  [vinyl-source-stream (v1.1.0)](https://github.com/hughsk/vinyl-source-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-source-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-source-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-source-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-source-stream)
+#### basic test coverage for  [vinyl-source-stream (v1.1.0)](https://github.com/hughsk/vinyl-source-stream)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-source-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-source-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-source-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-source-stream)
 
 #### Use conventional text streams at the start of your gulp or vinyl pipelines
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-source-stream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-source-stream/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vinyl-source-stream/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-source-stream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-source-stream/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vinyl-source-stream/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@
     "scripts": {
         "test": "node test"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
